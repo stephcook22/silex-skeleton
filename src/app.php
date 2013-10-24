@@ -6,7 +6,7 @@ $app->get('/', function() use($app) {
             });
 
 $app->mount(
-'/new',
+'/',
 new Bob\Route\NewPageControllerProvider()
 );
 
